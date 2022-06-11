@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav {
+     background-color: #B2B2B2;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+   
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;   
+}
+
+.imagemnavbar a:hover{
+  background-color: transparent;
+ 
+
+}
+.imagemnavbar{
+  padding-left: 100px;
+  
+}
+
+.listanav{
+  display: flex;
+  align-items: flex-end;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+li a {
+ 
+    color:#73E9B1;
+    display:inline-flex;
+    padding: 0px;
+    margin: 0 px;
+    text-decoration: none;
+    font-size: x-large ;
+    margin-right: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.flex
+{
+  display:flex ;
+  justify-content: center ;
+  align-items: center;
+} 
+
+nav ul li a:hover {
+    background-color:whitesmoke ;
+}
+
+  .Titulo{
+ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #20CA79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 400%;
+  
+
+
+  }
+
+  
+body{
+
+  background-color:beige;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;   
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+.Imagens {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav {
+    background-color: #B2B2B2;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;   
+}
+
+.imagemnavbar a:hover{
+  background-color: transparent;
+ 
+
+}
+.imagemnavbar{
+  padding-left: 100px;
+  
+}
+
+.listanav{
+  display: flex;
+  align-items: flex-end;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+li a {
+ 
+    color:#73E9B1;
+    display:inline-flex;
+    padding: 0px;
+    margin: 0 px;
+    text-decoration: none;
+    font-size: x-large ;
+    margin-right: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.flex
+{
+  display:flex ;
+  justify-content: center ;
+  align-items: center;
+} 
+
+nav ul li a:hover {
+    background-color:whitesmoke ;
+}
+
+
+
+
+body{
+
+   background-image: url(https://www.news-medical.net/images/news/ImageForNews_704692_16450308930134291.jpg);
+
+   background-size: cover;
+
+   background-repeat: no-repeat;   
+    
+
+    
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.Titulo{
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #20CA79;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  font-size: 400%;
+
+}
+
+.Titulo2{
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #7E8A7E;
+display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  font-style: italic;
+  font-size: 250%;
+  
+}
+
+.Titulo3{
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #7E8A7E;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  font-size: 180%;
+  
+}

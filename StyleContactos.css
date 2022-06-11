@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+      background-color: #B2B2B2;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+     
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+  }
+  
+  .imagemnavbar a:hover{
+    background-color: transparent;
+   
+  
+  }
+  .imagemnavbar{
+    padding-left: 100px;
+    
+  }
+  
+  .listanav{
+    display: flex;
+    align-items: flex-end;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  li a {
+   
+      color:#73E9B1;
+      display:inline-flex;
+      padding: 0px;
+      margin: 0 px;
+      text-decoration: none;
+      font-size: x-large ;
+      margin-right: 150px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  
+  .flex
+  {
+    display:flex ;
+    justify-content: center ;
+    align-items: center;
+  } 
+  
+
+  nav ul li a:hover {
+      background-color:whitesmoke ;
+  }
+
+
+  
+body{
+
+    background-image: url(https://images.unsplash.com/photo-1570018144715-43110363d70a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=731&q=80);
+ 
+    background-size: cover;
+ 
+    background-repeat: no-repeat;   
+     
+ 
+     
+ }
+
+
+
+
+
+ .Contactos{
+    
+    margin: 0px;
+    padding: 0px;
+    
+    display:block;
+    float:right;
+ }
+
